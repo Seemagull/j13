@@ -1,0 +1,248 @@
+body
+{
+	background: url('yellow_background.png');
+	font-family: 'terbuchet MS',Arial, sans-serif;
+	color: #181818;
+}
+#main_wrapper
+{
+	width: 900px;
+	margin: auto;
+
+}
+ section h1, footer h1, nav a
+ {
+ 	font-family: dayrom, serif;
+ 	font-weight: normal;
+ 	text-transform: uppercase;
+ }
+ header
+ {
+ 	background:url('line.png') repeat-x bottom;
+
+ }
+ #mian_title
+ {
+ 	display: inline-block;
+ }
+ header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+.li\logo, header h1
+{
+	display: inline-block;
+	margin-bottom: 0px;
+	 
+
+}
+header h2
+{
+	font-size: 1.1em;
+	margin-top: 0px;
+	font-weight: normal;
+	font-family: Dayrom, serif;
+	
+}
+nav
+{
+	display: inline-block;
+	width: 800px;
+	text-align:right;
+	
+
+
+}
+nav ul
+{
+	list-style-type: none;
+	display: block;
+
+
+}
+nav li
+{
+	display: inline-block;
+	margin-right: 16px;
+	text-align: right;
+
+}
+
+nav a
+{
+	font-size:1.2em;
+	color:black;
+	padding-bottom: 3px;
+	text-decoration: none;
+
+
+}
+nav a:hover 
+{
+	color:red;
+	border-bottom: 3px solid reds;
+
+}
+#profile_pic
+
+{
+  margin-top: 15px;
+  height: 250px;
+  border-radius: 8px;
+  background:url('pix7.jpg') no-repeat;
+  position: relative;
+  box-shadow: 4px,6px,0px;
+  margin-bottom;
+
+}
+#profile_description
+{
+	position: absolute;
+	border-radius: 0px,0px,5px,5px;
+	padding-top: 20px;
+	padding-left: 30px;
+	background-color: rgb(24,24,24);
+	background-color: rgba(24,24,24,0,9);
+		
+	font-size: 1em;
+	bottom: 0px;
+	width: 96.7%;
+	height: 35.5px;
+	color: white;
+}
+
+.button{
+	display:inline-block;
+	float:right;
+	font-size: 0.8em;
+	color: white;
+	text-align: center;
+	padding:5px;
+	border: 1px solid red;
+	background:url();
+	margin-right: 20px;
+	background-color: red;
+	border-radius: 3px 3px 5px 5px;
+	text-decoration: none;
+}
+#cat-icon{
+	width: 90px;
+	height: 90px;
+	margin-top: 20px;
+}
+#head12{
+	margin-left: 90px;
+	margin-top: -30px;
+}
+/*article, h1{
+	margin-left: 20px;
+}*/
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+
+article
+{
+    width: 625px;
+    margin-right: 15px;
+}
+article p
+{
+  font-size: 0.8em;
+}
+aside
+{
+	position: relative;
+	width: 200px;
+
+	background-color:white;
+	box-shadow: 4px.2px 5px ;
+	border-radius: 16px;
+	padding: 23px;
+	color: black;
+	font-size: 0.7em;
+	display: inline-block;
+	height: 570px;
+	margin-top: 20px;
+	
+}
+#mypicture
+{
+ text-align: center;
+ width: 60%;
+  height: 30px;
+
+}
+#mypicture img
+{
+  border: 1px solid  #181818;
+ 
+  height: 40px;
+   
+}
+ aside img
+ {
+ 	margin-right: 5px;
+ }
+ footer p, footer ul
+ {
+ 	font-size: 0.8em;
+
+ }
+ footer h1
+ {
+ 	font-size: 1.1em;
+
+ }
+ #tweet, #my_pictures ,#my_friends
+ {
+ 	display:inline-block;
+ 	vertical-align:top;
+
+ }
+ #tweet
+ {
+ 	width: 23%;
+
+ }
+ #my_pictures
+ {
+ 	width: 45%;
+
+ }
+ #my_friends
+ {
+ 	width: 31%;
+ 	text-decoration: center;
+
+ }
+ #my_pictures img
+ {
+ 	border: 1px solid #181818;
+ 	margin-right: 2px;
+ }
+  #my_friends ul
+  {
+  	display: inline-block;
+  	vertical-align: top;
+  	margin-top: 0px;
+  	width: 40px;
+  	list-style-type: 
+  	padding-left:2px;
+
+  }
+
+#my_friends a
+{
+	text-decoration: none;
+	color: #760001;
+}
+#copyright{
+	text-align: center;
+}

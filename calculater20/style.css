@@ -1,0 +1,40 @@
+body
+{
+ background-color: white;
+ margin-top: 150px;
+}
+#clear
+{
+	width:385px;
+	color: black ;
+	background-color: red;
+}
+.formstyle{
+	width: 400px;
+	height:  788px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: black;
+	border-radius: 10px;
+	 
+
+
+}
+input
+{
+	width: 120px;
+	height: 90px; 
+	color:blue;
+	font-size: 40px;
+	border-radius: 30px;
+	margin-left: 8px;
+
+}
+#answerstyle
+{
+	width: 380px;
+	height: 110px;
+	margin-top: 5px;
+}
+
+
